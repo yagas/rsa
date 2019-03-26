@@ -1,0 +1,21 @@
+{
+    "name": "yagas/rsa",
+    "description": "Simple RSA Library",
+	"keywords": ["RSA"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Weihua Lu",
+            "email": "yagas@sina.com"
+        }
+    ],
+    "require": {
+		"ext-openssl": "*"
+	},
+	"autoload": {
+        "psr-4": {
+            "yagas\\rsa\\": "src"
+        }
+	}
+}
